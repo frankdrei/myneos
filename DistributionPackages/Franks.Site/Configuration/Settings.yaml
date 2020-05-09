@@ -1,0 +1,20 @@
+Neos:
+  ContentRepository:
+    contentDimensions:
+      language:
+        label: 'language'
+        icon: icon-language
+        default: de
+        defaultPreset: de
+        presets:
+          en_US:
+            label: 'English (US)'
+            values:
+              - en_US
+            uriSegment: en
+          de:
+            label: German
+            values:
+              - de
+            uriSegment: ''
+
