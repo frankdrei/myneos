@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "franks/site",
+    "autoload": {
+        "psr-4": {
+            "Franks\\Site\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Franks.Site"
+        }
+    }
+}
