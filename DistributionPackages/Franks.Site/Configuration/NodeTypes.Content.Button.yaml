@@ -1,0 +1,8 @@
+'Franks.Site:Content.Button':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes.BaseMixins:TextMixin': true
+  ui:
+    label: 'Button'
+    icon: 'icon-link'
+    position: 600

@@ -1,0 +1,14 @@
+##
+# "Text" element
+#
+prototype(Franks.Site:Content.Button) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = afx`
+        <button class="btn" href="#">
+            {props.text}
+        </button>
+    `
+}
