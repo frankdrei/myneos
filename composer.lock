@@ -1422,6 +1422,7 @@
                 "reflection",
                 "static"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2020-03-27T11:06:43+00:00"
         },
         {
@@ -3177,12 +3178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-setup.git",
-                "reference": "8e1a44267388d200f22b521b5f5907a94f1b72a3"
+                "reference": "a668c2f2e1f71d1310f0001dd3a5bc63ef2ded3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-setup/zipball/8e1a44267388d200f22b521b5f5907a94f1b72a3",
-                "reference": "8e1a44267388d200f22b521b5f5907a94f1b72a3",
+                "url": "https://api.github.com/repos/neos/neos-setup/zipball/a668c2f2e1f71d1310f0001dd3a5bc63ef2ded3f",
+                "reference": "a668c2f2e1f71d1310f0001dd3a5bc63ef2ded3f",
                 "shasum": ""
             },
             "require": {
@@ -3282,7 +3283,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Custom neos/setup steps and configuration for Neos CMS",
-            "time": "2020-01-20T08:44:07+00:00"
+            "time": "2020-07-20T07:24:24+00:00"
         },
         {
             "name": "neos/neos-ui",
@@ -6885,16 +6886,16 @@
         },
         {
             "name": "typo3fluid/fluid",
-            "version": "2.6.9",
+            "version": "2.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/Fluid.git",
-                "reference": "ba05e165bb4fd1302edf3f0280a149992e8c79be"
+                "reference": "f20db4e74cf9803c6cffca2ed2f03e1b0b89d0dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/ba05e165bb4fd1302edf3f0280a149992e8c79be",
-                "reference": "ba05e165bb4fd1302edf3f0280a149992e8c79be",
+                "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/f20db4e74cf9803c6cffca2ed2f03e1b0b89d0dc",
+                "reference": "f20db4e74cf9803c6cffca2ed2f03e1b0b89d0dc",
                 "shasum": ""
             },
             "require": {
@@ -6920,7 +6921,7 @@
                 "LGPL-3.0-or-later"
             ],
             "description": "The TYPO3 Fluid template rendering engine",
-            "time": "2020-02-03T10:46:43+00:00"
+            "time": "2020-11-16T21:38:14+00:00"
         },
         {
             "name": "zendframework/zend-code",
@@ -7203,16 +7204,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/BuildEssentials.git",
-                "reference": "5938525a0abfa0c8540705e80401599c38d876e6"
+                "reference": "a7cb87937a31c9652496db4a5af88bdf28a664a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/BuildEssentials/zipball/5938525a0abfa0c8540705e80401599c38d876e6",
-                "reference": "5938525a0abfa0c8540705e80401599c38d876e6",
+                "url": "https://api.github.com/repos/neos/BuildEssentials/zipball/a7cb87937a31c9652496db4a5af88bdf28a664a3",
+                "reference": "a7cb87937a31c9652496db4a5af88bdf28a664a3",
                 "shasum": ""
             },
             "require": {
-                "neos/composer-plugin": "^1.0.6|^2.0.0"
+                "neos/composer-plugin": "^2.0.0"
             },
             "replace": {
                 "typo3/buildessentials": "self.version"
@@ -7226,7 +7227,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Neos Flow Build Toolchain Essentials",
-            "time": "2020-04-19T20:23:37+00:00"
+            "time": "2020-10-31T13:59:24+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -7791,6 +7792,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
